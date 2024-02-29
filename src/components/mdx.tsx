@@ -43,6 +43,7 @@ function ContentWrapper({
   )
 }
 
+
 function ArticleHeader({ id, date }: { id: string; date: string | Date }) {
   return (
     <header className="relative mb-10 xl:mb-0">

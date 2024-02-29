@@ -34,7 +34,7 @@ export function SignUpForm() {
         name="email"
         id={id}
         placeholder="Email address"
-        className="peer w-0 flex-auto bg-transparent px-4 py-2.5 text-base text-white placeholder:text-gray-500 focus:outline-none sm:text-[0.8125rem]/6"
+        className="peer w-0 flex-auto bg-transparent px-4 py-2.5 text-base text-white placeholder:text-gray-500 focus:outline-none sm:text-[0.9rem]/6"
         value={email}
         onChange={e => setEmail(e.target.value)}
       />

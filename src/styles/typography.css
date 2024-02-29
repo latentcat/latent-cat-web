@@ -50,15 +50,15 @@
   }
 
   color: var(--typography-body);
-  font-size: theme(fontSize.sm);
-  line-height: theme(lineHeight.6);
+  font-size: theme(fontSize.base);
+  line-height: theme(lineHeight.7);
 
   h2 {
     font-family: theme(fontFamily.display);
     color: var(--typography-headings);
     font-weight: theme(fontWeight.semibold);
-    font-size: theme(fontSize.xl);
-    line-height: theme(lineHeight.8);
+    font-size: theme(fontSize.2xl);
+    line-height: theme(lineHeight.10);
   }
 
   /* Headings */
@@ -67,7 +67,7 @@
     font-family: theme(fontFamily.display);
     font-weight: theme(fontWeight.semibold);
     font-size: theme(fontSize.base);
-    line-height: theme(lineHeight.6);
+    line-height: theme(lineHeight.7);
     display: flex;
     align-items: center;
     column-gap: theme(gap.3);

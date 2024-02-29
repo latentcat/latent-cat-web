@@ -259,7 +259,7 @@
   }
 
   li {
-    margin-top: theme(margin.4);
+    /*margin-top: theme(margin.4);*/
   }
 
   li > :is(p, ol, ul) {
@@ -278,8 +278,8 @@
     margin-top: theme(margin.16);
   }
 
-  > :first-child,
-  li > :first-child {
-    margin-top: 0;
-  }
+  /*> :first-child,*/
+  /*li > :first-child {*/
+  /*  margin-top: 0;*/
+  /*}*/
 }

@@ -43,16 +43,16 @@ function XIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 export function Intro() {
   return (
     <>
-      <div>
-        <Link href="/">
-          <Logo className="inline-block h-8 w-auto" />
-        </Link>
-      </div>
-      <h1 className="mt-14 font-display text-4xl/tight font-bold text-white">
+      {/*<div>*/}
+      {/*  <Link href="/">*/}
+      {/*    <Logo className="inline-block h-8 w-auto" />*/}
+      {/*  </Link>*/}
+      {/*</div>*/}
+      <h1 className="mt-14 font-display text-4xl/tight font-bold text-white text-center lg:text-left">
         <span className="text-sky-300">Latent</span>{' '}Cat
       </h1>
-      <p className="mt-4 text-sm/6 text-gray-300">
-        Miao
+      <p className="mt-4 text-sm/6 text-gray-300  text-center lg:text-left">
+        An AI R&D group.
       </p>
       <SignUpForm />
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">

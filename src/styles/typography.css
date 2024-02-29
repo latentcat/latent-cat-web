@@ -56,7 +56,7 @@
   h2 {
     font-family: theme(fontFamily.display);
     color: var(--typography-headings);
-    font-weight: theme(fontWeight.semibold);
+    font-weight: theme(fontWeight.bold);
     font-size: theme(fontSize.2xl);
     line-height: theme(lineHeight.10);
   }

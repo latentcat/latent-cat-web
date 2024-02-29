@@ -81,7 +81,7 @@ function FixedSidebar({
         <div className="mx-auto lg:mx-0 lg:flex lg:w-96 w-full max-w-lg lg:max-w-xl lg:flex-col lg:before:flex-1 lg:before:pt-6">
           <div className="pb-16 pt-20 sm:pb-20 sm:pt-32 lg:py-20">
             <div className="relative">
-              <StarField className="-right-44 top-14" />
+              {/*<StarField className="-right-44 top-14" />*/}
               {main}
             </div>
           </div>

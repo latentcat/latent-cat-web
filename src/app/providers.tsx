@@ -2,6 +2,7 @@
 
 import {ThemeProvider, useTheme} from 'next-themes'
 import {useEffect} from "react";
+import MixpanelAnalytics from "@/components/MixpanelAnalytics";
 
 
 
@@ -34,6 +35,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <ThemeProvider attribute="class" defaultTheme="dark" disableTransitionOnChange>
       <ThemeWatcher />
+      <MixpanelAnalytics />
       {children}
     </ThemeProvider>
   )

@@ -98,9 +98,6 @@ export function Intro() {
         {/*<IconLink href="https://www.youtube.com/channel/UCJ5coKDjw7Z0rrMSDajRESA" target="_blank" icon={YouTubeIcon} className="flex-none">*/}
         {/*  YouTube*/}
         {/*</IconLink>*/}
-        <IconLink href="mailto:contact@latentcat.com" icon={MailIcon} className="flex-none">
-          Mail
-        </IconLink>
       </div>
     </>
   )
@@ -112,6 +109,9 @@ export function IntroFooter() {
       Brought to you by{' '}
       <IconLink href="https://twitter.com/latent_cat" target="_blank" icon={XIcon} compact>
         Latent Cat
+      </IconLink>
+      <IconLink href="mailto:contact@latentcat.com" icon={MailIcon} className="flex-none">
+        Contact
       </IconLink>
     </p>
   )

@@ -89,7 +89,7 @@ export function Intro() {
         <IconLink href="https://github.com/latentcat" target="_blank" icon={GitHubIcon} className="flex-none">
           GitHub
         </IconLink>
-        <IconLink href="https://huggingface.co/ioclab" target="_blank" icon={HuggingFaceIcon} className="flex-none">
+        <IconLink href="https://huggingface.co/latentcat" target="_blank" icon={HuggingFaceIcon} className="flex-none">
           Hugging Face
         </IconLink>
         <IconLink href="https://aigc.latentcat.com/" target="_blank" icon={BookIcon} className="flex-none">
